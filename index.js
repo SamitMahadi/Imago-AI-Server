@@ -1,6 +1,6 @@
 
 import express from 'express';
-import cors from 'cors'
+import cors from 'cors';
 import * as dotenv from 'dotenv';
 import connectDB from './mongodb/connect.js';
 import imagoRoutes from './routes/imagoRoutes.js';
@@ -9,7 +9,7 @@ import postRoutes from './routes/postRoutes.js';
 
 
 
-dotenv.config();
+dotenv.config()
 
 
 const port = process.env.PORT || 5000;
