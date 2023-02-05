@@ -1,20 +1,27 @@
 {
   "name": "imago-ai-server",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index"
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamitMahadi/Imago-AI-Server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamitMahadi/Imago-AI-Server/issues"
+  },
+  "homepage": "https://github.com/SamitMahadi/Imago-AI-Server#readme",
   "dependencies": {
     "cloudinary": "^1.33.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.9.0",
     "nodemon": "^2.0.20",
